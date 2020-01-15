@@ -139,9 +139,9 @@ module Refile
     end
 
     def delete!
-      cache.delete(cache_id) if cache_id
-      store.delete(id) if id
-      @metadata = {}
+      # cache.delete(cache_id) if cache_id
+      # store.delete(id) if id
+      # @metadata = {}
     end
 
     def remove?
